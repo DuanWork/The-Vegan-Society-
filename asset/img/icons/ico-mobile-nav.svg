@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.04 24.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #008e84;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <title>ico-mobile-nav</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="nav_bar" data-name="nav bar">
+      <g>
+        <line class="cls-1" x1="2" y1="2" x2="26.04" y2="2"/>
+        <line class="cls-1" x1="2" y1="12.08" x2="26.04" y2="12.08"/>
+        <line class="cls-1" x1="2" y1="22.16" x2="26.04" y2="22.16"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8991d;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>ico-account-hover</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="content">
+      <circle class="cls-1" cx="25" cy="25" r="25"/>
+    </g>
+    <g id="text">
+      <g>
+        <circle class="cls-2" cx="24.85" cy="17.88" r="5.76"/>
+        <path class="cls-2" d="M35.09,33.88H14.6a10.24,10.24,0,1,1,20.49,0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8991d;
+      }
+    </style>
+  </defs>
+  <title>ico-main-menu-chev-down</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="text">
+      <path class="cls-1" d="M6,11a1.32,1.32,0,0,1-1.14-.68L.18,2A1.37,1.37,0,0,1,.66.18a1.31,1.31,0,0,1,1.8.49L6,6.94,9.54.68a1.31,1.31,0,0,1,1.8-.49A1.37,1.37,0,0,1,11.82,2l-4.68,8.3A1.32,1.32,0,0,1,6,11Z"/>
+    </g>
+  </g>
+</svg>

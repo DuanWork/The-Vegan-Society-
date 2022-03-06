@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8991d;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>ico-join-hover</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="content">
+      <circle class="cls-1" cx="25" cy="25" r="25"/>
+    </g>
+    <g id="text">
+      <g id="Outline_Icons" data-name="Outline Icons">
+        <g id="Outline_Icons-2" data-name="Outline Icons">
+          <g>
+            <line class="cls-2" x1="25" y1="14.04" x2="25" y2="35.96"/>
+            <line class="cls-2" x1="35.96" y1="25" x2="14.04" y2="25"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

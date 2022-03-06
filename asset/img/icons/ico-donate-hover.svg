@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8991d;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>ico-donate-hover</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="content">
+      <circle class="cls-1" cx="25" cy="25" r="25"/>
+    </g>
+    <g id="text">
+      <g>
+        <line class="cls-2" x1="16.87" y1="24" x2="27.84" y2="24"/>
+        <path class="cls-2" d="M31.13,17.42a4.39,4.39,0,0,0-8.77,0v9.87C22.36,30.92,21.6,35,18,35H31.13"/>
+      </g>
+    </g>
+  </g>
+</svg>

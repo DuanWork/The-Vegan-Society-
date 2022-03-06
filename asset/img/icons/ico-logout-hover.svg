@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8991d;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>ico-logout-hover</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="content">
+      <circle class="cls-1" cx="25" cy="25" r="25"/>
+    </g>
+    <g id="text">
+      <g id="Outline_Icons" data-name="Outline Icons">
+        <g id="Outline_Icons-2" data-name="Outline Icons">
+          <g>
+            <g>
+              <line class="cls-2" x1="11.55" y1="25" x2="29.68" y2="25"/>
+              <polyline class="cls-2" points="24.85 20.17 29.68 25 24.85 29.83"/>
+            </g>
+            <path class="cls-2" d="M12.74,19.5a13.29,13.29,0,1,1,0,10.93"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
