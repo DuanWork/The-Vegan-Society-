@@ -639,11 +639,11 @@ body {
     text-indent: -9999px;
 }
 
-/* .icon:hover {
+.icon:hover {
     text-decoration: none;
     background-color: #ff9e16;
     cursor: pointer;
-} */
+}
 
 .icon {
     margin: 0 10px;
@@ -669,6 +669,28 @@ body {
 .social-media .instagram {
     background-position: 0 -200px;
 }
+/* <!-- ----------- Hover Icon ----------- --> */
+
+.social-media .twitter:hover {
+    background-position: 0 -350px;
+}
+
+.social-media .facebook:hover {
+    background-position: 0 -50px;
+} 
+
+/* .social-media .google {
+    background-position: 0 -150px;
+} */
+
+.social-media .youtube:hover {
+        background-position: 0 -450px;
+}
+
+.social-media .instagram:hover {
+    background-position: 0 -250px;
+}
+
 
 
 .twitter,
@@ -676,7 +698,7 @@ body {
 /* .google, */
 .youtube,
 .instagram {
-    background-image: url(/asset/img/social-s9d8c864714.webp);
+    background-image: url(/asset/img/social-s9d8c864714.png);
     background-repeat: no-repeat;
 }
 
