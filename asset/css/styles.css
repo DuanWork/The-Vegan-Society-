@@ -48,7 +48,7 @@ body {
 }
 
 .logo-nav {
-    background: url(/asset/img/icons/logo.svg) no-repeat;
+    background: url(/asset/img/icons/logo.png) no-repeat;
     background-size: 323px 112px;
     display: inline-block;    
 }
