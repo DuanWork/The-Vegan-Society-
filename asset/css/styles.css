@@ -48,7 +48,7 @@ body {
 }
 
 .logo-nav {
-    background: url(/asset/img/icons/logo.png) no-repeat;
+    background: url(./img/icons/logo.png) no-repeat;
     background-size: 323px 112px;
     display: inline-block;    
 }
@@ -130,7 +130,7 @@ body {
 
 .nav-megamenu .megamenu-item .caret {
     border: none;
-    background: transparent url(/asset/img/icons/ico-main-menu-chev-down.svg) left top/12px 11px no-repeat;
+    background: transparent url(./img/icons/ico-main-menu-chev-down.svg) left top/12px 11px no-repeat;
     width: 12px;
     height: 11px;
     margin: 6px 0 0 4px;
@@ -141,7 +141,7 @@ body {
 }
 
 .nav-megamenu .megamenu-item .vegan-ico {
-    background: transparent url(/asset/img/icons/ico-vegan.svg) right 22px center/auto 30px no-repeat;
+    background: transparent url(./img/icons/ico-vegan.svg) right 22px center/auto 30px no-repeat;
 }
 
 .nav-megamenu .vegan,
@@ -162,7 +162,7 @@ body {
 /* <!-- ----------- Page ----------- --> */
 
 #page {
-    background: url(/asset/img/home/img-bg-front-orange-paint.jpg) center 140px/1920px auto no-repeat;
+    background: url(./img/home/img-bg-front-orange-paint.jpg) center 140px/1920px auto no-repeat;
     background-position: 50% 0%;
 }
 
@@ -387,7 +387,7 @@ body {
 }
 
 #block-50 {
-    background: #269f96 url(/asset/img/home/img-bg-pledge-block.webp) center/cover no-repeat;
+    background: #269f96 url(./img/home/img-bg-pledge-block.webp) center/cover no-repeat;
     text-align: center;
     color: #fff;
     margin-bottom: 3em;
@@ -537,7 +537,7 @@ body {
     color: #666;
     padding: .8em 1.25em 1.5em 45%;
     text-align: right;
-    background-image: url(/asset/img/footer/img-bg-newsletter-signup.webp);
+    background-image: url(./img/footer/img-bg-newsletter-signup.webp);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: auto 98%;
@@ -698,7 +698,7 @@ body {
 /* .google, */
 .youtube,
 .instagram {
-    background-image: url(/asset/img/social-s9d8c864714.png);
+    background-image: url(./img/social-s9d8c864714.png);
     background-repeat: no-repeat;
 }
 
