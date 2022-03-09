@@ -8,7 +8,75 @@
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1024px){
-    
+    .logo-nav {
+        background-size: 200px 66px;
+        width: 200px;
+        height: 66px;
+    }
+
+    .nav .container {
+        height: 5.5em;
+    }
+
+    .logo-nav img {
+        display: block!important;
+        width: 100%;
+        height: 100%;
+    }
+
+    .user-nav-inner {
+        position: absolute;
+        bottom: -3.25em;
+        left: 0;
+        right: 0;
+        transform: none;
+        text-align: center;
+    }
+
+    .user-nav ul.site-nav li {
+        margin: 0 .5em;
+    }
+
+    .user-nav ul.site-nav li.first > a {
+        background-image: url(./img/icons/ico-donate.svg);
+    }
+
+    .user-nav ul.site-nav li.last > a {
+        background-image: url(./img/icons/ico-join.svg);
+    }
+
+    .nav .site-nav .menu-members a {
+        background-image: url(./img/icons/ico-account.svg);
+    }
+
+
+    .nav ul.site-nav li a {
+        padding: 0;
+        font-size: 1em;
+        display: block;
+        width: 50px;
+        height: 50px;
+        text-indent: -9000px;
+        background-color: #fff!important;
+        box-shadow: 0 2px 20px 0 rgb(0 0 0 / 20%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50px;
+    }
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+        text-align: center;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .menu-nav {
+        display: inline-block;
+    }
 }
 
 /* Modile */

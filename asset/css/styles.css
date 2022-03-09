@@ -47,6 +47,12 @@ body {
     margin-top: 16px;
 }
 
+.menu-nav {
+    float: left;
+    margin-top: 16px;
+}
+
+
 .logo-nav {
     background: url(./img/icons/logo.png) no-repeat;
     background-size: 323px 112px;
@@ -91,10 +97,17 @@ body {
     background-color: #f77300;
 }
 
+.menu-nav,
 .user-nav .site-search {
     width: 33px;
     margin: -10px 0 0 16px;
     display: inline-block;
+}
+
+.menu-nav {
+    display: none;
+    float: left;
+    margin-top: 16px;
 }
 
 .site-search {
@@ -136,6 +149,7 @@ body {
     margin: 6px 0 0 4px;
 }
 
+.user-nav-inner,
 .nav-megamenu .megamenu-item .caret {
     display: inline-block;
 }
