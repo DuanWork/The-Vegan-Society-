@@ -346,6 +346,7 @@ body {
 }
 
 .block-list-panel {
+    display: inline-block;
     position: relative;
 }
 
@@ -508,6 +509,10 @@ body {
 
 /* .list1 {
 } */
+
+.slides .block-list-thumbnail .thumbnail-tab {
+    background-color: #f8991d;
+}
 
 .block-list-thumbnail .thumbnail-tab {
     background-color: #008e84;
