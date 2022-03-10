@@ -169,21 +169,23 @@
 
 /* Modile */
 @media (max-width: 740px) {
+
+    .active-slide .field-body {
+        padding: 20px 12px 20px;
+    }
+
     #nav > li {
         display: block;
     }
 
+    #page #region .none,
     #header .search-btn {
         display: none;
     }
-
-    #page #region .none {
-        display: 120px;
-    }
     
     #region {
-        margin-top: 0;
-        overflow: none;
+        margin-top: 120px;
+        overflow: hidden;
     }
 
     .view-content {
@@ -197,6 +199,10 @@
         width: 100%;
     }
 
+    .slides .block-list-thumbnail .thumbnail-tab {
+        display: none;
+    }
+
     .document-list .block-list-panel {
         box-shadow: 0 0 2px rgb(0 0 0 / 20%);
     }
@@ -204,6 +210,14 @@
     #block-views-page .view-content .flex-panel {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .block-list-title a {
+        font-size: 24px;
+    }
+
+    .active-slide .block-list-title {
+        padding: 8px 10px;
     }
 
     .document-list .view-content {
@@ -277,7 +291,6 @@
     .container {
         padding-left: 16px;
         padding-right: 16px;
-        text-align: center;
     }
 
     .navigation {
@@ -290,7 +303,7 @@
 
     #sign-up {
         text-align: center;
-        padding: 1.25em 3em 25.5em;
+        padding: 1.25em 3em 16.5em;
         text-align: center;
         background-position: center bottom;
         background-size: auto 24em;
