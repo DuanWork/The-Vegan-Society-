@@ -197,12 +197,20 @@ body {
 }
 
 .slides {
+    display: none;
+}
+
+.slides {
     position: relative;
     box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
 
 .slides .active-slide {
     list-style: none;
+}
+
+.active {
+    display: block;
 }
 
 /* .active-slide {
@@ -311,7 +319,7 @@ body {
 
 .active-slide .field-body {
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 0;
     right: 0;
     padding: 20px 56px 70px;
@@ -328,7 +336,7 @@ body {
 
 .document-list {
     float: right;
-    width: 27.33%;
+    width: 28.33%;
 }
 
 .document-list .view-content {
@@ -367,7 +375,8 @@ body {
 }
 
 .block-list-panel .block-list-title {
-    margin: 10px 0;
+    /* margin: 10px 0; */
+    margin-bottom: 12px;
 }
 
 .block-list-panel .block-list-title a {
@@ -543,7 +552,7 @@ body {
 
 .block-list-thumbnail img {
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: -4px;
 }
 
 #contact .block-list-panel .views-field {
