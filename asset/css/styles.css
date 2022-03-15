@@ -186,8 +186,12 @@ body {
 }
 
 .view-content {
+    position: relative;
+}
+
+.view-content {
     float: left;
-    padding: 29px 0;
+    padding: 1em 29px 0;
     width: 66.6667%;
     height: 732px;
 }
@@ -211,6 +215,15 @@ body {
 
 .active {
     display: block;
+}
+
+.dot-container,
+.click {
+    position: absolute;
+}
+
+.click {
+    top: 50%;
 }
 
 /* .active-slide {
@@ -336,7 +349,7 @@ body {
 
 .document-list {
     float: right;
-    width: 28.33%;
+    width: 33.333%;
 }
 
 .document-list .view-content {
@@ -483,6 +496,24 @@ body {
     text-align: center;
     margin: -65px 0 0 -26px;
     font-weight: 600;
+}
+
+.region .click {
+    display: inline-block;
+    /* width: 40px;
+    height: 40px;
+    margin: 40px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0,0,0,.8);
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 30%);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease; */
 }
 
 /* <!-- ----------- Contact ----------- --> */
