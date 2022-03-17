@@ -11,24 +11,67 @@
     #page #region .none {
         display: none;
     }
-    
-    #region {
-        margin-top: 120px;
-        overflow: none;
+
+    #block-50 p {
+        padding: 0 0;
     }
 
-    .view-content {
-        float: none;
+    #block-50 .block-title {
+        margin-top: 20px
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tb-mobi {
+        display: inline-block;
+        margin-top: 118px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .container #region-content-2{
+        display: none;
+    }
+
+    #block-50 {
+        margin-bottom: 0;
+    }
+    
+    #region {
+        margin-top: 0;
+        /* overflow: none; */
+    }
+
+    #region .view-content {
         padding: 0 0;
-        width: unset;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .view-document {
+        width: 100%;
         height: unset;
+    }
+
+    .view-document, .view-content {
+        padding: 2em 29px 0;
     }
 
     .document-list .block-list-panel .block-list-thumbnail {
         position: relative;
-        width: 40%;
+        width: 50%;
         float: left;
         margin-right: 1.5em;
+    }
+
+    .dot-container {
+        bottom: 30px;
     }
 
     .list1 .block-list--panel {
@@ -44,6 +87,7 @@
 
     .block-list-panel {
         padding: 0 0 0;
+        margin-bottom: 2em;
     }
 
     .block-list-panel .block-list-thumbnail img {
@@ -53,6 +97,9 @@
 
     .document-list {
         width: 100%;
+        background: url(./img/home/img-bg-front-orange-paint.jpg) center 0px/1280px auto no-repeat;
+        background-position: 50% 90%;
+        padding-bottom: 100px;
     }
 
     .document-list .block-list-panel {
@@ -60,15 +107,13 @@
     }
 
     #contact .container h2 {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        margin-left: 29px;
+        margin-right: 29px;
     }
 
     #contact .view-content {
         display: block;
-    }
-
-    #block-views-page .block-title {
-        margin-top: 30px;
     }
 
     #block-views-page .view-content .flex-panel {
@@ -133,11 +178,6 @@
         background-size: 50px;
     }
 
-    .container {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
     .navigation {
         display: none;
     }
@@ -148,11 +188,12 @@
 
     #sign-up {
         text-align: center;
-        padding: 1.25em 3em 25.5em;
+        padding: 1.25em 3em 28em;
         text-align: center;
         background-position: center bottom;
         background-size: auto 24em;
         font-size: 1.3em;
+        margin: 0 29px;
     }
 
     #contact #sign-up a {
@@ -161,15 +202,78 @@
 
     #sign-up .newsletter {
         left: 50%;
-        bottom: -12%;
+        bottom: -5%;
         height: 63%;
         transform: translateX(-50%) rotate(-2deg);
+    }
+
+    .footer-nav .button-navigation .menu {
+        margin: 0 0px;
+    }
+    
+    .site-footer .small-print {
+        margin: 0 40px;
+    }
+
+    .get-view {
+        margin-bottom: 60px;
     }
     
 }
 
 /* Modile */
 @media (max-width: 740px) {
+
+    #page {
+        background-position: 50% 100%;
+    }
+
+    #block-50 p {
+        padding: 0 0;
+        font-size: 18px;
+    }
+
+    #block-50 .block-title {
+        margin-top: 20px
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tb-mobi {
+        display: inline-block;
+        margin-top: 118px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .container #region-content-2{
+        display: none;
+    }
+
+    #block-50 {
+        margin-bottom: 0;
+    }
+
+    #region .view-content {
+        padding: 0 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: unset;
+    }
+
+    .view-document {
+        width: 100%;
+        height: unset;
+    }
+
+    .view-document, .view-content {
+        padding: 2em 29px 0;
+    }
 
     .active-slide .field-body {
         padding: 20px 12px 20px;
@@ -178,22 +282,28 @@
     #nav > li {
         display: block;
     }
+   
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     #page #region .none,
     #header .search-btn {
         display: none;
     }
+
+    .tb-mobi {
+        display: inline-block;
+        margin-top: 118px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
     
     #region {
-        margin-top: 120px;
+        margin-top: 0;
         overflow: hidden;
-    }
-
-    .view-content {
-        float: none;
-        padding: 0 0;
-        width: unset;
-        height: unset;
     }
 
     .document-list {
@@ -206,6 +316,13 @@
 
     .document-list .block-list-panel {
         box-shadow: 0 0 2px rgb(0 0 0 / 20%);
+    }
+
+    .document-list {
+        /* width: 100%;
+        background: url(./img/home/img-bg-front-orange-paint.jpg) center 0px/1280px auto no-repeat;
+        background-position: 50% 90%;
+        padding-bottom: 100px; */
     }
 
     #block-views-page .view-content .flex-panel {
@@ -227,6 +344,8 @@
 
     #contact .container h2 {
         margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     #block-views-page .block-title {
@@ -234,6 +353,7 @@
     }
     
     .logo-nav {
+        background: url(./img/icons/logo-vegan-society-sml.svg) no-repeat;
         background-size: 200px 66px;
         width: 200px;
         height: 66px;
@@ -290,11 +410,6 @@
         background-size: 50px;
     }
 
-    .container {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
     .navigation {
         display: none;
     }
@@ -305,11 +420,12 @@
 
     #sign-up {
         text-align: center;
-        padding: 1.25em 3em 16.5em;
+        padding: 1.25em 3em 14em;
         text-align: center;
         background-position: center bottom;
-        background-size: auto 24em;
+        background-size: auto 12em;
         font-size: 1.3em;
+        margin: 0 29px;
     }
 
     #contact #sign-up a {
@@ -336,6 +452,10 @@
     .document-list .view-content,
     #contact .view-content {
         display: block;
+    }
+
+    .get-view {
+        margin-bottom: 40px;
     }
 
 }
