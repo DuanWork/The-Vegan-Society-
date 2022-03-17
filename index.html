@@ -84,7 +84,20 @@
         <!-- ----------- Page ----------- -->
     
         <section id="page">
-            <div id="region">
+            <div class="container">
+                <div id="region-content-1">
+                    <div id="block-50" class="block-block clearfix">
+                        <h2 class="block-title">VeGuide</h2>
+                        <p>Try our VeGuide app, it's everything you need to start your vegan journey.<br>
+                            <a class="btn-link" href="#">Download</a>
+                        </p>
+                        <div class="free-label">
+                            <span>Free</span>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            <div id="region">                
                 <div class="view-content">
                     <ul id="content" class="slides active">
                             <li class="active-slide">
@@ -170,14 +183,11 @@
                         <button onclick = "dot(1)"></button>
                         <button onclick = "dot(2)"></button>
                         <button onclick = "dot(3)"></button>
-                        <button onclick = "dot(4)"></button>
                     </div>
-                    <div class="click">
-                        <i class="fa-duotone fa-angle-left"></i>
-                        <i class="fa-duotone fa-angle-right"></i>
-                        <!-- <button id="prev" onclick="prev()"> &lt; </button> -->
-                        <!-- <button id="next" onclick="next()"><i class="fa-duotone fa-angle-right"></i></button> -->
-                    </div>
+                    <button id="prev" onclick="prev()" class="fa-solid fa-angle-left"></button>
+                    <button id="next" onclick="next()" class="fa-solid fa-angle-right"></button>
+                    <!-- <button id="prev" onclick="prev()"> &lt; </button> -->
+                    <!-- <button id="next" onclick="next()"><i class="fa-duotone fa-angle-right"></i></button> -->
                 </div>
                 
 

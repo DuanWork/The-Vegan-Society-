@@ -217,13 +217,17 @@ body {
     display: block;
 }
 
-.dot-container,
-.click {
-    position: absolute;
+.dot-container {
+    position: absolute;   
+    width: 100%;
+    left: 50%;
+    bottom: 60px;
+
 }
 
-.click {
-    top: 50%;
+
+#prev, #next {
+    position: absolute;
 }
 
 /* .active-slide {
@@ -419,7 +423,8 @@ body {
 
 
 /* ------------- Region-content ----------- */
-#region-content {
+#region-content-1,
+#region-content-2 {
     margin: 60px 0;
 }
 
@@ -498,22 +503,44 @@ body {
     font-weight: 600;
 }
 
-.region .click {
-    display: inline-block;
-    /* width: 40px;
-    height: 40px;
+#prev, #next {
+    display: none;
+    width: 50px;
+    height: 50px;
     margin: 40px 0 0;
-    position: absolute;
     top: 50%;
     z-index: 10;
     overflow: hidden;
-    opacity: 0;
-    cursor: pointer;
-    color: rgba(0,0,0,.8);
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 50px;
+    /* opacity: 0; */
+    /* cursor: pointer; */
+    color: rgba(0,0,0,-0.2);
+    /* color: rgba(0,0,0,.8); */
     text-shadow: 1px 1px 0 rgb(255 255 255 / 30%);
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease; */
+    transition: all .3s ease;
+    cursor: pointer;
+} 
+
+.view-content:hover #prev, 
+.view-content:hover #next {
+    display: inline-block;
+    
+}
+
+#prev:hover,
+#next:hover {
+    color: #fff;
+}
+
+#next {
+    right: 50px;
+}
+
+#prev {
+    left: 50px;
 }
 
 /* <!-- ----------- Contact ----------- --> */
