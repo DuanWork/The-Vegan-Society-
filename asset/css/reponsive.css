@@ -27,7 +27,7 @@
 
     .tb-mobi {
         display: inline-block;
-        margin-top: 118px;
+        margin-top: 105px;
         padding-left: 0;
         padding-right: 0;
         width: 100%;
@@ -244,7 +244,7 @@
 
     .tb-mobi {
         display: inline-block;
-        margin-top: 118px;
+        margin-top: 105px;
         padding-left: 0;
         padding-right: 0;
         width: 100%;
@@ -292,14 +292,6 @@
     #header .search-btn {
         display: none;
     }
-
-    .tb-mobi {
-        display: inline-block;
-        margin-top: 118px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 100%;
-    }
     
     #region {
         margin-top: 0;
@@ -310,19 +302,16 @@
         width: 100%;
     }
 
-    .slides .block-list-thumbnail .thumbnail-tab {
+    .slide .block-list-thumbnail .thumbnail-tab {
         display: none;
+    }
+
+    .slide .field-body {
+        padding: 20px 20px 34px;
     }
 
     .document-list .block-list-panel {
         box-shadow: 0 0 2px rgb(0 0 0 / 20%);
-    }
-
-    .document-list {
-        /* width: 100%;
-        background: url(./img/home/img-bg-front-orange-paint.jpg) center 0px/1280px auto no-repeat;
-        background-position: 50% 90%;
-        padding-bottom: 100px; */
     }
 
     #block-views-page .view-content .flex-panel {
@@ -332,6 +321,11 @@
 
     .block-list-title a {
         font-size: 24px;
+    }
+
+    .block-list-excerpt {
+        font-size: 16px;
+        line-height: 1.4;
     }
 
     .active-slide .block-list-title {
@@ -350,6 +344,26 @@
 
     #block-views-page .block-title {
         margin-top: 30px;
+    }
+
+    .dot-container {
+        position: absolute;
+        width: 100%;
+        left: 40%;
+        bottom: 10px;
+    }
+
+    #prev {
+        left: 4px;
+    }
+
+    #next {
+        right: 4px;
+    }
+
+    #prev, #next {
+        margin: 0 0;
+        top: 46%;
     }
     
     .logo-nav {
@@ -395,7 +409,6 @@
         background-image: url(./img/icons/ico-account.svg);
     }
 
-
     .nav ul.site-nav li a {
         padding: 0;
         font-size: 1em;
@@ -420,7 +433,7 @@
 
     #sign-up {
         text-align: center;
-        padding: 1.25em 3em 14em;
+        padding: 1.25em 8px 14em;
         text-align: center;
         background-position: center bottom;
         background-size: auto 12em;

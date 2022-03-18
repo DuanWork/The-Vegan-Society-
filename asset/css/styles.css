@@ -85,6 +85,11 @@ body {
     border-radius: 25px;
 }
 
+.site-nav li a:hover {
+    background-color: #f8991d;
+    text-decoration: none;
+}
+
 .site-nav li a {
     text-decoration: none;
 }
@@ -126,19 +131,20 @@ body {
     list-style: none;
 }
 
-/* .nav-megamenu {
-
-} */
-
 .nav-megamenu .megamenu-item > a {
     border-right: none;
     border-top: 0;
     color: #008e84;
     font-size: 18px;
     font-weight: 550;
-    padding: 4px 4px 4px;
+    padding: .4em .5em .5em;
     text-decoration: none;
     display: inline-block;
+}
+
+.nav-megamenu .megamenu-item > a:hover {
+    background-color: rgba(0,142,132,.9);
+    color: #fff;
 }
 
 .nav-megamenu .megamenu-item .caret {
@@ -154,30 +160,30 @@ body {
     display: inline-block;
 }
 
-.nav-megamenu .megamenu-item .vegan-ico {
-    background: transparent url(./img/icons/ico-vegan.svg) right 22px center/auto 30px no-repeat;
+.nav-megamenu .megamenu-item  a .vegan-ico {
+    display: inline-block;
+    background: transparent url(./img/icons/ico-vegan.svg) right 22px center/auto 32px no-repeat;
+    height: 32px;
+    width: 40px;
+    margin-bottom: -10px;
+    background-position: 50%;
 }
 
-.nav-megamenu .vegan,
-.nav-megamenu .megamenu-item .vegan-ico {
-    width: 220px;
+.megamenu-item a:hover .vegan-ico {
+    background: transparent url(./img/icons/ico-vegan-hover.svg) right 22px center/auto 32px no-repeat;
+    background-position: 50%;
 }
 
 .megamenu-item {
     display: inline-block;
 }
 
-/* #container {
-    width: 1400px;
-    max-width: 100%;
-} */
-
-
 /* <!-- ----------- Page ----------- --> */
 
 #page {
     background: url(./img/home/img-bg-front-orange-paint.jpg) center 140px/1920px auto no-repeat;
     background-position: 50% 0%;
+    padding-top: 14px;
 }
 
 .tb-mobi {
@@ -286,6 +292,7 @@ body {
 .field-title .block-list-title > a {
     pointer-events: none;
     text-decoration: none;
+    text-shadow: 0 0 30px #000;
     color: #fff;
 }
 
@@ -306,6 +313,12 @@ body {
     text-align: left;
     opacity: 0.8;
     mix-blend-mode: screen;
+}
+
+.view-field .block-list-title:hover {
+    background-color: #f8991d;
+    color: #fff;
+    cursor: pointer;
 }
 
 .slide .dark-grad {
@@ -887,17 +900,4 @@ ul.menu {
     color: #999;
     display: block;
 }
-
-
-/* @keyframes slide {
-    25% {
-
-    }
-    50% {
-
-    }
-    75% {
-
-    }
-} */
 
