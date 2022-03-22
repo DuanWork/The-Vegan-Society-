@@ -218,9 +218,9 @@ body {
     margin-left: 30px;
 }
 
-.tb-megamenu-subnav {
+/* .tb-megamenu-subnav {
 
-}
+} */
 
 .tb-megamenu .mega-inner {
     padding: .7em .7em 1em;
@@ -273,8 +273,8 @@ body {
     margin-left: 0;
 }
 
-.tb-megamenu-item:hover .tb-submenu {
-}
+/* .tb-megamenu-item:hover .tb-submenu {
+} */
 
 #tb-megamenu-column-2 .tb-megamenu-item > a{
     font-size: 16px;
