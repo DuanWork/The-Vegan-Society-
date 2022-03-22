@@ -199,6 +199,10 @@ body {
     display: block;
 }
 
+.tb-submen:hover .megamenu-item {
+    background-color: rgba(0,142,132,.9);
+}
+
 .tb-submenu .mega-dropdown {
     background-color: rgba(0,142,132,.9);
     box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
@@ -262,6 +266,10 @@ body {
     margin-left: 30%;
     margin-top: 6px;
     top: 0;
+}
+
+.tb-megamenu-item .nal-l {
+    margin-left: -16.666%;
 }
 
 .nav-child {
