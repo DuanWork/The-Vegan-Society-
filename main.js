@@ -34,6 +34,42 @@ function dot(index){
     indicator(index);
 }
 
+//show and hide
+
+var a;
+function show_hide()
+{
+    if (a == 1)
+    {
+        document.getElementById("subnav").style.display="block";
+        return a = 0;
+    }else{
+        document.getElementById("subnav").style.display="none";
+        return a = 1;
+    }
+}
+
+var b;
+function show_menu()
+{
+    if (b == 1)
+    {
+        document.getElementById("list").style.display="block";
+        return b = 0;
+    }else{
+        document.getElementById("list").style.display="none";
+        return b = 1;
+    }
+}
+
+
+//Hover Button 
+
+var obj = document.getElementById('hvbtn');
+hvbtns.addEventListener(function(hvbtn){
+    hvbtn.style.backgroundColor = "rgba(0,142,132,.9)";
+});
+
 
 //Auto Slide
 

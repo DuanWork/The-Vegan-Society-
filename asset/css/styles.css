@@ -126,6 +126,17 @@ body {
     margin-top: -30px;
 }
 
+.mm-slideout {
+    background: transparent;
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
 .tb-collapse-nav .nav-megamenu {
     list-style: none;
 }

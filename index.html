@@ -13,9 +13,9 @@
 <body>
 <section id="main">
     <!-- ----------- Heaer ----------- -->
-    <Section id="header">`
+    <Section id="header">
         <div class="nav">
-            <div class="container">
+            <div class="container nav-ctn">
                 <div class="user-nav">
                     <div class="user-nav-inner">
                         <ul class="site-nav inner">
@@ -36,16 +36,16 @@
                         <img src="./asset/css/img/icons/search.svg" alt="Search">
                     </a>
                 </div>
-                <a href="#" class="menu-nav">
+                <a onclick="show_hide()" href="#" class="menu-nav">
                     <img src="./asset/css/img/icons/ico-mobile-nav.svg" alt="Search">
                 </a>
                 <a href="#" class="logo-nav">
                     <img src="./asset/css/img/logo.webp" alt="logo">
                 </a>
-                <div class="navigation">
+                <div id="subnav" class="navigation">
                     <div class="tb-collapse-nav">
                         <ul class="nav-megamenu">
-                            <li class="megamenu-item">
+                            <li id="hvbtn" class="megamenu-item">
                                 <a href="#">News
                                 <span class="caret"></span>     
                                 </a>
@@ -148,7 +148,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="megamenu-item">
+                            <li id="hvbtn" class="megamenu-item">
                                 <a href="#">Go Vegan
                                 <span class="caret"></span>
                                 </a>
@@ -243,7 +243,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="megamenu-item">
+                            <li id="hvbtn" class="megamenu-item">
                                 <a href="#">Get Involved
                                 <span class="caret"></span>
                                 </a>
@@ -530,7 +530,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="megamenu-item">
+                            <li id="hvbtn" class="megamenu-item">
                                 <a href="#">Lifestyle
                                 <span class="caret"></span>
                                 </a>
@@ -790,12 +790,12 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="megamenu-item vegan">
+                            <li id="hvbtn" class="megamenu-item vegan">
                                 <a href="#">Vegan Trademark
                                     <div class="vegan-ico"></div>
                                 </a>
                             </li>
-                            <li class="megamenu-item">
+                            <li id="hvbtn" class="megamenu-item">
                                 <a href="#">Shop
                                 <span class="caret"></span>
                                 </a>
@@ -822,6 +822,7 @@
                         </ul>
                     </div>
                 </div>
+                <div id="list" class="mm-slideout"></div>
             </div>
         </div>        
     </Section>
@@ -842,7 +843,7 @@
                 </div>                
             </div>
         </div>
-        <div class="container">
+        <div class="container tb-mobi-2">
             <div id="region">                
                 <div class="view-content">
                     <ul id="slides1" class="slide active">

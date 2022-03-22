@@ -8,7 +8,37 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1024px){
+@media (min-width: 740px) and (max-width: 1024px) {
+    #heaeder {
+        overflow: hidden;
+    }
+
+    .megamenu-item {
+        display: block;
+    }
+
+    .navigation {
+        position: fixed;
+    }
+
+    .container #subnav {
+        text-align: unset;
+    }
+
+    .tb-collapse-nav {
+        float: left;
+        background-color: #008e84;
+        position: fixed;
+        top: 0;
+        margin-top: 0;
+        width: 80%;
+        height: 100%;
+    }
+
+    .nav-megamenu .megamenu-item > a {
+        color: #fff;
+    }
+
     #page #region .none {
         display: none;
     }
@@ -22,8 +52,8 @@
     }
 
     .container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 29px;
+        padding-right: 29px;
     }
 
     .tb-mobi {
@@ -32,6 +62,12 @@
         padding-left: 0;
         padding-right: 0;
         width: 100%;
+    }
+
+    .tb-mobi-2 {
+        display: inline-block;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .container #region-content-2{
@@ -108,9 +144,13 @@
     }
 
     #contact .container h2 {
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
         margin-left: 29px;
         margin-right: 29px;
+    }
+
+    .block-list-panel .block-list-excerpt {
+        margin-top: 10px;
     }
 
     #contact .view-content {
@@ -131,6 +171,8 @@
     .nav .container {
         text-align: center;
         height: 5.5em;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .logo-nav img {
@@ -194,7 +236,7 @@
         background-position: center bottom;
         background-size: auto 24em;
         font-size: 1.3em;
-        margin: 0 29px;
+        /* margin: 0 29px; */
     }
 
     #contact #sign-up a {
@@ -225,8 +267,44 @@
 /* Modile */
 @media (max-width: 740px) {
 
+    .container {
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+
+    .megamenu-item {
+        display: block;
+    }
+
+    .navigation {
+        position: fixed;
+    }
+
+    .container #subnav {
+        text-align: unset;
+    }
+
+    .tb-collapse-nav {
+        float: left;
+        background-color: #008e84;
+        position: fixed;
+        top: 0;
+        margin-top: 0;
+        width: 80%;
+        height: 100%;
+    }
+
+    .nav-megamenu .megamenu-item > a {
+        color: #fff;
+    }
+
     #page {
         background-position: 50% 100%;
+    }
+
+    #page .container {
+        padding-left: 29px;
+        padding-right: 29px;
     }
 
     #block-50 p {
@@ -238,17 +316,18 @@
         margin-top: 20px
     }
 
-    .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .tb-mobi {
+    #page .tb-mobi {
         display: inline-block;
         margin-top: 105px;
         padding-left: 0;
         padding-right: 0;
         width: 100%;
+    }
+
+    #page .tb-mobi-2 {
+        display: inline-block;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .container #region-content-2{
@@ -282,11 +361,6 @@
 
     #nav > li {
         display: block;
-    }
-   
-    .container {
-        padding-left: 0;
-        padding-right: 0;
     }
 
     #page #region .none,
@@ -338,7 +412,7 @@
     }
 
     #contact .container h2 {
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
         margin-left: 0;
         margin-right: 0;
     }
@@ -377,6 +451,12 @@
     .nav .container {
         text-align: center;
         height: 5.5em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nav .nav-ctn {
+        
     }
 
     .logo-nav img {
@@ -428,6 +508,16 @@
         display: none;
     }
 
+    .mm-slideout {
+        /* display: block; */
+        background: #000;
+    }
+
+    .mm-slideout {
+        opacity: .3;
+        transition: opacity .4s ease .4s;
+    }
+
     .menu-nav {
         display: inline-block;
     }
@@ -439,7 +529,7 @@
         background-position: center bottom;
         background-size: auto 12em;
         font-size: 1.3em;
-        margin: 0 29px;
+        /* margin: 0 29px; */
     }
 
     #contact #sign-up a {
