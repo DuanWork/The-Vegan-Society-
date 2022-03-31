@@ -21,6 +21,18 @@
         position: fixed;
     }
 
+    .mm-slideout {
+        display: block;
+        background: #000;
+    }
+
+    .mm-slideout {
+        overflow: hidden;
+        opacity: .3;
+        transition: opacity .4s ease .4s;
+        z-index: -1;
+    }
+
     .container #subnav {
         text-align: unset;
     }
@@ -509,13 +521,15 @@
     }
 
     .mm-slideout {
-        /* display: block; */
+        display: block;
         background: #000;
     }
 
     .mm-slideout {
+        overflow: hidden;
         opacity: .3;
         transition: opacity .4s ease .4s;
+        z-index: -1;
     }
 
     .menu-nav {

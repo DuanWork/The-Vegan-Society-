@@ -65,9 +65,9 @@ function show_menu()
 
 //Hover Button 
 
-var obj = document.getElementById('hvbtn');
+var obj = document.getElementById("hvbtn");
 hvbtns.addEventListener(function(hvbtn){
-    hvbtn.style.backgroundColor = "rgba(0,142,132,.9)";
+    hvbtn.style.backgroundColor = "rgba(0,142,132,.9)";N
 });
 
 

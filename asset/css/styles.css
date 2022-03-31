@@ -152,11 +152,15 @@ body {
     display: inline-block;
 }
 
-.nav-megamenu .megamenu-item > a:hover {
-    background-color: rgba(0,142,132,.9);
+.megamenu-item:hover > a {
     color: #fff;
 }
 
+.megamenu-item:hover {
+    background-color: rgba(0,142,132,.9);
+    color: #fff;
+}
+    
 .nav-megamenu .megamenu-item .caret {
     border: none;
     background: transparent url(./img/icons/ico-main-menu-chev-down.svg) left top/12px 11px no-repeat;
