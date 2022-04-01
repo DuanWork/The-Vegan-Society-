@@ -152,6 +152,12 @@ body {
     display: inline-block;
 }
 
+.nav-megamenu .megamenu-item .mm-next {
+    display: none;
+    float: right;
+    right: 25px;
+}
+
 .megamenu-item:hover > a {
     color: #fff;
 }

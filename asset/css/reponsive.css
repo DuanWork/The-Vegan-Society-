@@ -34,7 +34,7 @@
     }
 
     .container #subnav {
-        text-align: unset;
+        text-align: left;
     }
 
     .tb-collapse-nav {
@@ -43,12 +43,31 @@
         position: fixed;
         top: 0;
         margin-top: 0;
-        width: 80%;
+        width: 55%;
         height: 100%;
+    }
+
+    .nav-megamenu .megamenu-item .caret {
+        display: none;
     }
 
     .nav-megamenu .megamenu-item > a {
         color: #fff;
+        font-weight: 500;
+        padding: 20px 20px 20px 35px;
+        /* margin-right: 55px; */
+        border:  0.1px solid rgba(255,255,255,.5);
+        width: 80%;
+    }
+
+    .nav-megamenu .megamenu-item a .vegan-ico {
+        display: none;
+    }
+
+    .nav-megamenu .megamenu-item .mm-next {
+        display: block;
+        width: 20%;
+        /* height: 62px; */
     }
 
     #page #region .none {
@@ -286,6 +305,7 @@
 
     .megamenu-item {
         display: block;
+
     }
 
     .navigation {
@@ -293,7 +313,7 @@
     }
 
     .container #subnav {
-        text-align: unset;
+        text-align: left;
     }
 
     .tb-collapse-nav {
@@ -306,8 +326,26 @@
         height: 100%;
     }
 
+    .nav-megamenu .megamenu-item .caret {
+        display: none;
+    }
+
     .nav-megamenu .megamenu-item > a {
         color: #fff;
+        font-weight: 500;
+        padding: 20px 20px 20px 28px;
+        /* margin-right: 55px; */
+        border:  0.1px solid rgba(255,255,255,.5);
+        width: 80%;
+    }
+
+    .nav-megamenu .megamenu-item a .vegan-ico {
+        display: none;
+    }
+
+    .nav-megamenu .megamenu-item .mm-next {
+        display: block;
+        width: 20%;
     }
 
     #page {
@@ -537,7 +575,6 @@
     }
 
     #sign-up {
-        text-align: center;
         padding: 1.25em 8px 14em;
         text-align: center;
         background-position: center bottom;
