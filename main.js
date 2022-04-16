@@ -36,30 +36,12 @@ function dot(index){
 
 //show and hide
 
-var a;
-function show_hide()
-{
-    if (a == 1)
-    {
-        document.getElementById("subnav").style.display="block";
-        return a = 0;
-    }else{
-        document.getElementById("subnav").style.display="none";
-        return a = 1;
-    }
+function open_menu() {
+    document.getElementById("myOpen").style.display = "block";
 }
-
-var b;
-function show_menu()
-{
-    if (b == 1)
-    {
-        document.getElementById("list").style.display="block";
-        return b = 0;
-    }else{
-        document.getElementById("list").style.display="none";
-        return b = 1;
-    }
+  
+function close_menu() {
+    document.getElementById("myOpen").style.display = "none";
 }
 
 //Hover Button 
@@ -88,3 +70,4 @@ hvbtns.addEventListener(function(hvbtn){
 //     slides[slideIndex - 1].style.display = "none";
 //     setTimeout(showSlides, 2000); 
 // }
+
