@@ -4,31 +4,1234 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Đại Hội Cổ Đông</title>
+    <link rel="stylesheet" href="./asset/css/styles.css">
+    <link rel="stylesheet" href="./asset/css/reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
+    <title>The Vegan Society |</title>
 </head>
 <body>
-    <section id="main">
-        <section id="bg">
-            <div class="bg__navbar img__logo">
-                <a class="nav__logo" href="index.html">
-                    <img src="./assets/img/vlu-logo.png" alt="">
+<section id="main">
+    <!-- ----------- Heaer ----------- -->
+    <Section id="header">
+        <div class="nav">
+            <div class="container nav-ctn">
+                <div class="user-nav">
+                    <div class="user-nav-inner">
+                        <ul class="site-nav inner">
+                            <li class="menu first">
+                                <a href="#">Donate</a>
+                            </li>
+                            <li class="menu last">
+                                <a href="#">Join</a>
+                            </li>
+                        </ul>
+                        <ul class="site-nav item">
+                            <li class="menu-members">
+                                <a href="#">Members' Area</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="/search" class="site-search">
+                        <img src="./asset/css/img/icons/search.svg" alt="Search">
+                    </a>
+                </div>
+                <a onclick="open_menu()" href="#" class="menu-nav">
+                    <img src="./asset/css/img/icons/ico-mobile-nav.svg" alt="Search">
                 </a>
-            </div> 
-            <div class="bg__text">
-                <h1>Van Lang University</h1>
-                <p>Đại hội cổ đông thường niên năm 2023</p>
-                <a class="btn" href="login.html">Đăng nhập</a>
+                <a href="#" class="logo-nav">
+                    <img src="./asset/css/img/logo.webp" alt="logo">
+                </a>
+                <div id="myOpen" class="navigation">
+                    <div class="tb-collapse-nav">
+                        <ul class="nav-megamenu">
+                            <li class="megamenu-item">
+                                <a href="#">News
+                                <span class="caret"></span>     
+                                </a>
+                                <a class="mm-next" href="#">
+                                    <i class="fa-light fa-angle-right"></i>
+                                </a>
+                                <div class="tb-submenu">
+                                    <div class="mega-dropdown">
+                                        <div class="tb-megamenu-column">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">News</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Blog</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Events</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Competitions</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tb-megamenu-column mega-col-nav">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Media</a>
+                                                        <div class="dropdown-menu nav-child lv-1" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Press releases                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Statistics                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Spokespeople                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Share your story                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Market insights</a>
+                                                        <div class="dropdown-menu nav-child lv-2" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Press releases                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Statistics                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Spokespeople                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Share your story                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="megamenu-item">
+                                <a href="#">Go Vegan
+                                <span class="caret"></span>
+                                </a>
+                                <a class="mm-next" href="#">
+                                    <i class="fa-light fa-angle-right"></i>
+                                </a>
+                                <div class="tb-submenu">
+                                    <div class="mega-dropdown">
+                                        <div class="tb-megamenu-column">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Definition of veganism</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Why go vegan?</a>
+                                                        <div class="dropdown-menu nav-child lv-2" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        How many animals would I save?                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Health
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Environment
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        The honey industry                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        The dairy industry                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        The egg industry                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">How to go vegan</a>
+                                                        <div class="dropdown-menu nav-child lv-3" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Meal planning                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Take the Vegan Pledge</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tb-megamenu-column mega-col-nav">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">VeGuide App - Go Vegan the Easy Way</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="megamenu-item">
+                                <a href="#">Get Involved
+                                <span class="caret"></span>
+                                </a>
+                                <a class="mm-next" href="#">
+                                    <i class="fa-light fa-angle-right"></i>
+                                </a>
+                                <div class="tb-submenu">
+                                    <div class="mega-dropdown">
+                                        <div class="tb-megamenu-column">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Campaigns</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Donate</a>
+                                                        <div class="dropdown-menu nav-child lv-2" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Donate Today                     
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Support the Future Normal
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Give in your will
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Donate in memory                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Raise funds</a>
+                                                        <div class="dropdown-menu nav-child lv-3" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Race for vegan living                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Walk for vegan living
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Collection tins
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Need a little inspiration?                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Vegan and Thriving 77 Challenge                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Volunteer</a>
+                                                        <div class="dropdown-menu nav-child lv-4" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Community Network                     
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Volunteer Profiles
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Volunteer Roles
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tb-megamenu-column mega-col-nav">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Grants</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Join our newsletter</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Our work with policy makers</a>
+                                                        <div class="dropdown-menu nav-child lv-3" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Our Manifesto for Veganism                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Planting Value in the Food System                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        COP26 Hub                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        How We Influence Policy                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Climate Crisis                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Research</a>
+                                                        <div class="dropdown-menu nav-child lv-4" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Research News                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Research Advisory Committee                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Researcher Network                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tb-megamenu-column mega-col-nav">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">International Rights Network</a>
+                                                        <div class="dropdown-menu nav-child lv-1 nal-l" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        About the IRN                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        IRN Blog                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        What rights do vegans have?                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Veganism in the workplace                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        International Rights Conference                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Currently experiencing problems?                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Veganise your town</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Business</a>
+                                                        <div class="dropdown-menu nav-child lv-3 nal-l" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Discount list                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Wholesale opportunities                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Become a member</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="megamenu-item">
+                                <a href="#">Lifestyle
+                                <span class="caret"></span>
+                                </a>
+                                <a class="mm-next" href="#">
+                                    <i class="fa-light fa-angle-right"></i>
+                                </a>
+                                <div class="tb-submenu">
+                                    <div class="mega-dropdown">
+                                        <div class="tb-megamenu-column">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Nutrition and health</a>
+                                                        <div class="dropdown-menu nav-child lv-1" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Nutrition overview                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Nutrients
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Life stages                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Bone health                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Medications
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Allergen labelling
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Fuelling an active lifestyle
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Vegan and Thriving
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Recipes</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Fashion</a>
+                                                        <div class="dropdown-menu nav-child lv-3" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Vegan shoes                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Vegan tattoos
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Food and drink</a>
+                                                        <div class="dropdown-menu nav-child lv-4" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Sandwich and wrap fillings                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Vegan-friendly options in UK chains                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Vegan on a budget                         
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tb-megamenu-column mega-col-nav">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">School</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Shopping</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Social</a>
+                                                        <div class="dropdown-menu nav-child lv-3" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Press releases                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Statistics                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Spokespeople                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Share your story                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Travel</a>
+                                                        <div class="dropdown-menu nav-child lv-4" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Press releases                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Statistics                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Spokespeople                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Share your story                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tb-megamenu-column mega-col-nav">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item mega">
+                                                        <a href="#">Publications and video</a>
+                                                        <div class="dropdown-menu nav-child lv-1 nal-l" aria-expanded="true">
+                                                            <div class="mega-dropdown-inner">
+                                                                <div class="tb-megamenu-row row-fluid">
+                                                                    <div id="tb-megamenu-column-2" class="tb-megamenu-column span  mega-col-nav">
+                                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                                            <ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Press releases                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Statistics                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Spokespeople                      
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="tb-megamenu-item">
+                                                                                    <a href="#" title="Press releases">
+                                                                                        Share your story                      
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">General FAQs</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Family</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Teen Hub</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="megamenu-item vegan">
+                                <a href="#">Vegan Trademark
+                                    <div class="vegan-ico"></div>
+                                </a>
+                                <a class="mm-next" href="#">
+                                    <i class="fa-light fa-angle-right"></i>
+                                </a>
+                            </li>
+                            <li class="megamenu-item">
+                                <a href="#">Shop
+                                <span class="caret"></span>
+                                </a>
+                                <a class="mm-next" href="#">
+                                    <i class="fa-light fa-angle-right"></i>
+                                </a>
+                                <div class="tb-submenu">
+                                    <div class="mega-dropdown">
+                                        <div class="tb-megamenu-column">
+                                            <div class="tb-megamenu-column-inner">
+                                                <ul class="tb-megamenu-subnav">
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">VEG 1 Vegan Supplements</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Gifts & Accessories</a>
+                                                    </li>
+                                                    <li class="tb-megamenu-item">
+                                                        <a href="#">Donate now</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div onclick="close_menu()" class="mm-slideout"></div>
+                    </div>
+                </div>
             </div>
-        </section>  
+        </div>        
+    </Section>
+
+    <!-- ----------- Page ----------- -->
+
+    <section id="page">
+        <div class="container tb-mobi">
+            <div id="region-content-1">
+                <div id="block-50" class="block-block clearfix">
+                    <h2 class="block-title">VeGuide</h2>
+                    <p>Try our VeGuide app, it's everything you need to start your vegan journey.<br>
+                        <a class="btn-link" href="#">Download</a>
+                    </p>
+                    <div class="free-label">
+                        <span>Free</span>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="container tb-mobi-2">
+            <div id="region">                
+                <div class="view-content">
+                    <ul id="slides1" class="slide active">
+                        <li class="slide">
+                            <div class="view-field field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./asset/css/img/public/Carousel-Membership.png">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab join">Join</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="view-field field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">Become a member</a>
+                                </h2>
+                            </div>
+                            <div class="view-field field-body">
+                                <p class="field-content block-list-excerpt">
+                                    #JoinTheVeganSociety to change society. Stop animal suffering, help save
+                                    our planet, as a healthier way to live-from just £2 a month.
+                                </p>
+                            </div>
+                        </li>    
+                    </ul>
+                    <ul id="slides2" class="slide">
+                        <li class="slide">
+                            <div class="view-field field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./asset/css/img/public/8180_Carousel_Img_05.jpg">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab campaign">Campaign</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="view-field field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">Plate Up for the Planet</a>
+                                </h2>
+                            </div>
+                            <div class="view-field field-body">
+                                <p class="field-content block-list-excerpt">
+                                    Have a look at our Plate Up for the Planet campaign 
+                                    which shows that eating vegan is one of the best 
+                                    ways to protect the planet.
+                                </p>
+                            </div>
+                        </li>    
+                    </ul>
+                    <ul id="slides3" class="slide">
+                        <li class="slide">
+                            <div class="view-field field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./asset/css/img/public/Website Carousel Image (2).jpg">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab shop">Shop</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="view-field field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">VEG 1 Vegan <br> Supplements</a>
+                                </h2>
+                            </div>
+                            <div class="view-field field-body">
+                                <p class="field-content block-list-excerpt">
+                                    Our VEG 1 multivitamin is now 100% plastic-free, from 
+                                    the pot it comes in to the materials used for postage. 
+                                    Shop now by clicking here
+                                </p>
+                            </div>       
+                        </li>
+                    </ul> 
+                    <div class="dot-container">
+                        <button onclick = "dot(1)"></button>
+                        <button onclick = "dot(2)"></button>
+                        <button onclick = "dot(3)"></button>
+                    </div>
+                    <button id="prev" onclick="prev()" class="fa-solid fa-angle-left"></button>
+                    <button id="next" onclick="next()" class="fa-solid fa-angle-right"></button>
+                </div>
+                
+
+                <div class="document-list">
+                    <div class="view-document">
+                        <div class="block-list-panel">
+                            <div class="views-field field-type">
+                                <span>
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./field/images/Plant-Milk-Blog-Thumbnail.jpg">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab blog">Blog</span>
+                                    </div>
+                                </span>
+                            </div> 
+                            <div class="views-field field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">A guide to the best plant milks</a>
+                                </h2>
+                            </div> 
+                            <div class="views-field field-body">
+                                <p class="field-content block-list-excerpt">
+                                Plant milk is dominating our shelves with so many delicious 
+                                options. Come and explore <br> your favourites with us!
+                                </p>
+                            </div> 
+                        </div>
+
+                        <div class="block-list-panel">
+                            <div class="views-field field-type">
+                                <span>
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./field/images/Thumbnail-The-Vegan-Pod-Logo-2022.jpg">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab news">News</span>
+                                    </div>
+                                </span>
+                            </div> 
+                            <div class="views-field field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">The Vegan Society's Podcast returns for 2022!</a>
+                                </h2>
+                            </div> 
+                            <div class="views-field field-body">
+                                <p class="field-content block-list-excerpt">
+                                    Look out for the first episode of The Vegan Pod on 14 February
+                                </p>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="region-content-2">
+                <div id="block-50" class="block-block clearfix">
+                    <h2 class="block-title">VeGuide</h2>
+                    <p>Try our VeGuide app, it's everything you need to start your vegan journey.<br>
+                        <a class="btn-link" href="#">Download</a>
+                    </p>
+                    <div class="free-label">
+                        <span>Free</span>
+                    </div>
+                </div>                
+            </div>
+        </div>
     </section>
-    <script src="./assets/js/main.js" ></script>
+
+    <!-- ----------- Contact ----------- -->
+
+    <section id="contact">
+        <div class="container">
+            <!-- ----------- Latest News & Blogs ----------- -->
+            <div id="block-views-page" class="block-views-clearfix">
+                <h2 class="block-title">Latest News & Blogs</h2>
+                <div class="block-list list1">
+                    <div class="view-content">
+                        <div class="block-list-panel">
+                            <div class="views-field views-field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./field/images/Paraveganio_Verpackung_full.png">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab news">News</span>
+                                    </div>
+                                </span>
+                            </div> 
+                            <div class="views-field views-field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">Paraveganio® first to carry Vegan Society’s Vegan Trademark</a>
+                                </h2>
+                            </div>
+                            <div class="views-field views-field-body">
+                                <p class="field-content block-list-excerpt">Paraveganio® has become the first medicinal product in the 
+                                    world to be registered with The Vegan Society’s Vegan Trademark.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="block-list-panel flex-panel">
+                            <div class="views-field views-field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./field/images/Vegan TM Events.jpg">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab news">News</span>
+                                    </div>
+                                </span>
+                            </div> 
+                            <div class="views-field views-field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">Where to find the Vegan Trademark team in 2022</a>
+                                </h2>
+                            </div>
+                            <div class="views-field views-field-body">
+                                <p class="field-content block-list-excerpt">The Vegan Society’s Vegan Trademark team are gearing up for a busy year of events</p>
+                            </div>
+                        </div>
+                        <div class="block-list-panel">
+                            <div class="views-field views-field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./field/images/TVS logo.jpg">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab news">News</span>
+                                    </div>
+                                </span>
+                            </div> 
+                            <div class="views-field views-field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">Vegan Society AGM 2022</a>
+                                </h2>
+                            </div>
+                            <div class="views-field views-field-body">
+                                <p class="field-content block-list-excerpt">The AGM of The Vegan Society will be held on Saturday 21 May 2022 from 1pm – 5pm.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------- Get Involved ----------- -->
+            <div id="block-views-page" class="block-views-clearfix">
+                <h2 class="block-title">Get Involved</h2>
+                <div class="block-list list1">
+                    <div class="view-content get-view">
+                        <div class="block-list-panel">
+                            <div class="views-field views-field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./field/TVS_C4E_Thumbnail_724x352.png">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab news">News</span>
+                                    </div>
+                                </span>
+                            </div> 
+                            <div class="views-field views-field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">Catering for Everyone</a>
+                                </h2>
+                            </div>
+                            <div class="views-field views-field-body">
+                                <p class="field-content block-list-excerpt">Our aim is to get more and better vegan options in the public sector. We want to see every school, hospital, prison and council menu contain good...</p>
+                            </div>
+                        </div>
+                        <div class="block-list-panel flex-panel">
+                            <div class="views-field views-field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./field/Vol_724x352_1_0_0.jpg">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab news">News</span>
+                                    </div>
+                                </span>
+                            </div> 
+                            <div class="views-field views-field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">Volunteering with The Vegan Society</a>
+                                </h2>
+                            </div>
+                            <div class="views-field views-field-body">
+                                <p class="field-content block-list-excerpt">There are a variety of ways to volunteer with us to help us promote veganism worldwide.</p>
+                            </div>
+                        </div>
+                        <div class="block-list-panel">
+                            <div class="views-field views-field-type">
+                                <span class="field-content">
+                                    <div class="block-list-thumbnail">
+                                        <a href="#">
+                                            <img src="./field/Systems-Report-Thumbnail-blue_0.jpg">
+                                        </a>
+                                        <div class="dark-grad"></div>
+                                        <span class="thumbnail-tab news">News</span>
+                                    </div>
+                                </span>
+                            </div> 
+                            <div class="views-field views-field-title">
+                                <h2 class="field-content block-list-title">
+                                    <a href="#">Planting Value in the Food System</a>
+                                </h2>
+                            </div>
+                            <div class="views-field views-field-body">
+                                <p class="field-content block-list-excerpt">We've launched a new report showcasing our vision for a fairer food future. Visit the report website to explore the ideas and download the report</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sign-up">
+                <h2>Sign-up for our newsletter</h2>
+                <p>Join our newsletter to receive monthly competitions, offers and information on all things vegan.</p>
+                <p>
+                    <a class="btn-link" href="#">Join</a>
+                </p>
+                <img class="newsletter" src="./asset/css/img/footer/newsletter-email-mockup.webp">
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------- Footer ----------- -->
+    
+    <section id="footer">
+        <div class="site-footer">
+            <div class="container">
+                <div class="social-media">
+                    <a class="icon twitter" href="#">Twitter</a>
+                    <a class="icon facebook" href="#">Facebook</a>
+                    <!-- <a class="icon google" href="#">Google Plus</a> -->
+                    <a class="icon youtube" href="#">Youtube</a>
+                    <a class="icon instagram" href="#">Instagram</a>
+                </div>
+                <nav class="footer-nav">
+                    <div class="region-footer">
+                        <div class="button-navigation">
+                            <ul class="menu clearfix">
+                                <li class="first leaf menu-mlid-1">
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li class="leaf menu-mlid-2">
+                                    <a href="#">Media</a>
+                                </li>
+                                <li class="last leaf menu-mlid-3">
+                                    <a href="#">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="menu clearfix">
+                            <li class="first leaf">
+                                <a href="#">Site Map</a>
+                            </li>
+                            <li class="leaf">
+                                <a href="#">Privacy & Cookie Policy</a>
+                            </li>
+                            <li class="last leaf">
+                                <a href="#">Jobs</a>
+                            </li>
+                        </ul>
+                        <span class="small-print new-sm">Reg. Charity No: 279228 (England and Wales) and SC049495 (Scotland) | Company Reg. No: 01468880 and 12377572 (England and Wales) | VAT Registration No. 361 7274 92 </span>
+                        <span class="small-print new-sm">Copyright © 1944 - 2022 The Vegan Society</span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+</section>
+
+<script src="./main.js"></script>
 </body>
 </html>
